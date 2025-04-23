@@ -1,6 +1,6 @@
-CREATE TABLE bilbasen_bil (
+
+CREATE TABLE test (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
-    owner_id INTEGER NOT NULL,
-    FOREIGN KEY (owner_id) REFERENCES bilbasen_bruger(id)
+    owner_idd INTEGER NOT NULL
 );
